@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = async () => {
 
-  await new Promise<void>((resolve) => setTimeout(() => resolve(), 2000));
+  await new Promise<void>((resolve) => setTimeout(() => resolve(), 300));
 
   return (
     <div className="bg-emerald-700">

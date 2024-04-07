@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = async () => {
 
-  await new Promise<void>((resolve) => setTimeout(() => resolve(), 1500));
+  await new Promise<void>((resolve) => setTimeout(() => resolve(), 300));
 
   return (
     <div className="bg-rose-400">
