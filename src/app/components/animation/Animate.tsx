@@ -4,7 +4,6 @@ import { PropsWithChildren } from "react";
 import { DELAY, useNavigationTransition } from "./context";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { LoadingSpinner } from "./LoadingSpinner";
 
 export default function Animate({ children }: PropsWithChildren) {
   const { pending } = useNavigationTransition();
